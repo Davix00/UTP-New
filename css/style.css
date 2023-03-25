@@ -17,12 +17,12 @@ body {
   text-decoration: none;
 }
 
-.menu{
+.menu {
   display: inline-block;
 }
 
-.menu button{
-    color: #ffffff;
+.menu button {
+  color: #ffffff;
 }
 
 #logo {
@@ -109,4 +109,18 @@ body {
 .info a {
   text-decoration: none;
   color: #ffffff;
+}
+
+#container_login {
+  display: flex;
+  justify-content: center;
+  margin-top: 0px
+}
+
+
+.login input {
+
+  margin: 10px;
+  justify-content: center;
+  display: block;
 }

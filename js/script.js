@@ -1,8 +1,9 @@
-function Login() {
-  location.href = "/pages/login.php";
-};
+function irLogin() {
+  location.href = "/pages/login/login.php";
+}
+
+function irRegistro() {
+  location.href = "/pages/registro/registro.php";
+}
 
 
-function Registro() {
-  location.href = "/pages/registro.php";
-};

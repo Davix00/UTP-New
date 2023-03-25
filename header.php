@@ -15,6 +15,8 @@
     <!--GOOGLE FONTS-->
     <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet" />
+    <!--JQuery-->
+    <script src="/js/jquery-3.6.4.min.js"></script>
 </head>
 <body>
 
@@ -30,8 +32,8 @@
                 </a>
             </div>
             <div class="menu">
-                <button class="opcion btn" onclick="Login()">Login</button>
-                <button class="opcion btn" onclick="Registro()">Registrarse</button>
+                <button class="opcion btn" onclick="irLogin()">Login</button>
+                <button class="opcion btn" onclick="irRegistro()">Registrarse</button>
             </div>
             <form id="buscar" class="nav-item d-flex" role="search">
                 <input class="form-control me-1" type="search" placeholder="estudiantes..." aria-label="Search">
