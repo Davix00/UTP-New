@@ -1,3 +1,6 @@
+<?php
+    require("conexion.php");
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -24,7 +27,7 @@
     <nav class="navbar">
         <div class="container " style="margin-top: 0px;">
             <div class="info">
-                <a href="../index.php" class="container_title">
+                <a href="/index.php" class="container_title">
                     <h3 id="titulo">
                         <img id="logo" class="img-fluid" src="/images/icon.png" alt="Logo">
                         UNIVERSIDAD TECNOLÓGICA DE PUEBLA

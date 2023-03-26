@@ -1,5 +1,5 @@
 <?php
-    require("../header.php")
+    require("header.php")
 ?>
 
 <h3 id="subtitulo">Registrate</h3>
@@ -7,10 +7,10 @@
     <form class="login">
         <input id="nombre" type="email" placeholder="ejemplo@mail">
         <input id="contra" type="password" placeholder="contraseña">
-        <input type="submit" onclick="Login()" value=" Registrate ">
+        <input type="submit" onclick="" value=" Registrate ">
     </form>
 </div>
 
 <?php
-    require("../footer.php")
+    require("footer.php")
 ?>
